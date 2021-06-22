@@ -91,6 +91,13 @@ padding: 24px;
 .btn-lat-pr {
     justify-self: center
 }
+.btn-gr-fir {
+    justify-self: first baseline;
+}
+ .btn-down {
+    margin-top: 10px;
+ } 
+}
 .img-lat-pr > img {
     width: 500px;
     height: 200px;
