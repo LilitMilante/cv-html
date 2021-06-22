@@ -69,6 +69,10 @@ padding: 24px;
     width: 32px;
     height: 32px;
 }
+.icon {
+    width: 32px;
+    height: 32px;
+}
 .align-left {
     display: grid;
     grid-gap: 20px;
@@ -103,4 +107,7 @@ padding: 24px;
 }
 .img-lat-pr {
     justify-self: center;
+}
+.about-me-h3 {
+    margin-bottom:  20px;
 }
