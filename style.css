@@ -1,113 +1,61 @@
-.header {
-    background-color: rgb(231, 241, 241);
-    display: grid;
-    grid-template-columns: minmax(auto, 200px) 3fr 1fr;
-    column-gap: 10px;
-
-}
-.header-avatar {
-    justify-self: end;
-    align-self: center;
-}
-.header-name {
-    /* background-color: crimson; */
-    align-self: center;
-}
-.header-btn {
-    /* background-color: cornflowerblue; */
-    align-self: center;
-    justify-self: center;
-}
-/* Стили кнопок */
-.btn {
-    padding: 8px 16px;
-    font-weight: 700;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 10px;
-}
-.bg-green {
-    background-color:#57b753
-}
-.bg-blue {
-    background-color:#489ec9
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
 
-
-/* Стили футер */
-.footer {
-    background-color: rgb(48, 49, 48);
-    text-align: center;
-    color: rgba(255, 255, 255, 0.377);
-}
-.footer > a {
-    color: white;
-    text-decoration: none;
+h1, h2, h3, h4 h5, h6 {
+    margin: 0;
 }
 
-
-/* Стили body */
-.main {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-gap: 20px;
-    grid-auto-rows: minmax(100px, auto);
-    background-color: rgb(212, 230, 230);
-    padding: 40px;
-}
-.item {
-    display: grid;
-    background-color: rgb(255, 255, 255);
-padding: 24px;
-}
-.header-avatar img {
-    border-radius: 50%;
-    max-width: 100px;
-}
-.icon > svg {
-    width: 32px;
-    height: 32px;
-}
-.icon {
-    width: 32px;
-    height: 32px;
-}
-.align-left {
-    display: grid;
-    grid-gap: 20px;
-}
-.align-right {
-    display: grid;
-    grid-gap: 20px;
-}
-.icon-geo > svg {
-    width: 20px;
-    height: 20px;
-}
-.item-geo {
-    display: grid;
-
-}
-.align-centr-lat-pr {
-  text-align: center;
-}
-.btn-lat-pr {
-    justify-self: center
-}
-.btn-gr-fir {
-    justify-self: first baseline;
-}
- .btn-down {
-    margin-top: 10px;
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
  }
-.img-lat-pr > img {
-    width: 500px;
-    height: 200px;
+ 
+.rightside {
+    background-color: rgb(255, 255, 255);
+    color: rgb(63, 63, 63);
 }
-.img-lat-pr {
-    justify-self: center;
+
+.container {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    width: 600px;
 }
-.about-me-h3 {
-    margin-bottom:  20px;
+
+.leftside {
+    background-color: rgb(35, 44, 57);
+    color: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.leftside__foto {
+    margin: 30px 56px;
+}
+
+
+
+.leftside__contact__ul_a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+
+.leftside__contact__ul_li {
+    margin-bottom: 8px;
+}
+
+.leftside__contact_ul_img {
+    margin-left: 24px;
+}
+
+.leftside__skills {
+    padding: 24px;
+}
+
+.leftside__skills__ul_li {
+    margin-bottom: 19px;
 }
